@@ -6,8 +6,8 @@ class Osmchinaoffset < Formula
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
-  depends_on "libosmium" => :build
   depends_on "googletest" => :build
+  depends_on "libosmium" => :build
 
   resource "protozero" do
     url "https://github.com/mapbox/protozero/archive/v1.7.1.tar.gz"
