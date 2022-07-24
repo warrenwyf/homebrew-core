@@ -7,6 +7,7 @@ class Osmchinaoffset < Formula
 
   depends_on "cmake" => :build
   depends_on "libosmium" => :build
+  depends_on "googletest" => :build
 
   resource "protozero" do
     url "https://github.com/mapbox/protozero/archive/v1.7.1.tar.gz"
